@@ -18,3 +18,12 @@ devtool deploy-target your-recipe-name username@192.168.0.100
 # mount -o remount,rw /
 
 ```
+
+
+Find versions of packages
+
+```bash
+$ bitbake -s | grep spd
+spdlog                                              :1.9.2-r0                                                    
+spdlog-native                                       :1.9.2-r0 
+```
